@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: tomato;
+}
+header{
+    background-color: rgb(211, 166, 81);
+    padding: 15px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    background-color: rgb(219, 121, 85);
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+main{
+    margin: 10px 35px;
+    text-align: center;
+}
+.jogos img{
+    width: 500px;
+}
+.jogos{
+    margin: 75px 25px;
+}
+#titulo-principal{
+    font-size: 50px;
+}
+#titulo-secundario{
+    font-size: 40pxs;
+}
